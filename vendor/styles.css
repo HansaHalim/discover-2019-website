@@ -54,6 +54,11 @@
     transform:none;
 }
 
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 60px 0px;
+}
 
 
 
