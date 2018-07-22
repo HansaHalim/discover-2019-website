@@ -9,7 +9,7 @@
     
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-    
+    <link href="style.css" rel="stylesheet">
     <!-- Custom fonts -->
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     
@@ -17,6 +17,7 @@
     <link href="vendor/creative.css" rel="stylesheet">
     <link href="vendor/styles.css" rel="stylesheet">
     
+    <script src="function.js"></script>
 </head>
 
 <body>
@@ -78,9 +79,7 @@
             <img src="img/discover.png" width="10%" height="auto">
             <div class="row">
                 <div class="description shadow-large">
-                    <div class="description-image">
-                        <img src="img/culture.jpg" />
-                    </div>
+                        <img src="img/star.png" />
                     <div class="description-info">
                         <h3>Chinese Culture</h3>
                         <p>
@@ -90,9 +89,7 @@
                 </div>
 
                 <div class="description shadow-large">
-                    <div class="description-image">
-                        <img src="img/workshop.jpg" />
-                    </div>
+                        <img src="img/star.png" />
                     <div class="description-info">
                         <h3>Workshops</h3>
                         <p>
@@ -102,9 +99,7 @@
                 </div>
 
                 <div class="description shadow-large">
-                    <div class="description-image">
-                        <img src="images/volunteer.jpg" />
-                    </div>
+                        <img src="img/star.png" />
                     <div class="description-info">
                         <h3>Volunteering</h3>
                         <p>
@@ -115,9 +110,7 @@
                 </div>
                 
                 <div class="description shadow-large">
-                    <div class="description-image">
-                        <img src="images/mandarin.jpg" />
-                    </div>
+                        <img src="img/star.png" />
                     <div class="description-info">
                         <h3>Mandarin Classes</h3>
                         <p>
@@ -128,9 +121,7 @@
                 </div>
                 
                 <div class="description shadow-large">
-                    <div class="description-image">
-                        <img src="images/leadership.jpg" />
-                    </div>
+                        <img src="img/star.png" />
                     <div class="description-info">
                         <h3>Leadership</h3>
                         <p>
@@ -141,9 +132,7 @@
                 </div>
                 
                 <div class="description shadow-large">
-                    <div class="description-image">
-                        <img src="images/trip.jpg" />
-                    </div>
+                        <img src="img/star.png" />
                     <div class="description-info">
                         <h3>Trip To China</h3>
                         <p>
@@ -154,9 +143,9 @@
                 </div>
                 
             </div>
-        </div>
-        <div align="left">
-         <button align="left" type="button" class="btn btn-danger btn-small rounded-0">Learn More &gt;</button>
+        <div>
+         <button id="learn"  onclick="myFunction()" type="button" class="btn btn-danger btn-small rounded-0">Learn More &gt;</button>
+
      </div>
     </div>
     
@@ -179,9 +168,9 @@
         <div class="container">
             <div class="wrapper">
                 <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#overview">Overview</a></li>
+                    <ul><a align="text-center" href="#about">About Us</a><ul>
+                    <ul><a align="text-center" href="#team">Team</a></ul>
+                    <ul><a align="text-center" href="#overview">Overview</a></ul>
                 </ul>
             </div>
             <div align="right" style="font-size: 30px; line-height: 1">
