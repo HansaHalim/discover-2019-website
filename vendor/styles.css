@@ -60,6 +60,13 @@ footer {
     padding: 60px 0px;
 }
 
+ul, li {
+    margin: 0; padding: 0;
+}
+.centered{
+	text-align:center;
+}
+
 
 
 
