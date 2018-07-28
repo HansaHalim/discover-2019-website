@@ -1,6 +1,5 @@
-function myFunction(){
-	$("#learn").click(function()){
-		$("#learn").addClass("centered");
-	}
-
-}
+$(document).ready(function(){
+    $("#learn").click(function(){
+        $("#dropdown").toggle();
+    });
+});
